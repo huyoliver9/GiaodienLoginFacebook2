@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/blue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="huyoliver9.com.giaodienloginfacebook.MainActivity">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_above="@+id/lg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/facelogo"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lg"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/dimen_login"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:padding="@dimen/padding_edittex"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_edittext"
+            android:layout_marginBottom="@dimen/dimen_edittex_login"
+            android:background="@drawable/round_e"
+            android:hint="@string/email_or_phone"
+            android:textSize="@dimen/size_signup" />
+        <EditText
+            android:padding="@dimen/padding_edittex"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_edittext"
+            android:layout_marginBottom="@dimen/dimen_edittex_login"
+            android:background="@drawable/round_e"
+            android:hint="@string/password"
+            android:textSize="@dimen/size_signup" />
+
+
+        <Button
+           android:text="@string/log_in"
+           android:textAllCaps="false"
+           android:textStyle="bold"
+           android:textSize="@dimen/size_login"
+           android:textColor="@color/white"
+           android:layout_marginBottom="@dimen/dimen_edittex_login"
+           android:background="@drawable/round_b"
+           android:layout_width="match_parent"
+           android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/fg"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_signup"
+            android:text="@string/forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/su"
+        android:text="@string/Sign_up"
+        android:textSize="@dimen/size_signup"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_signup"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true" />
+
+
+    <ImageView
+
+        android:src="@mipmap/dau_hoi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dimen_icon_Right"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dime_icon_bottom" />
+</RelativeLayout>

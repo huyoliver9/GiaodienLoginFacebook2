@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GiaodienLoginFacebook</string>
+    <string name="Sign_up">Sing Up for Facebook</string>
+    <string name="email_or_phone">Email or Phone</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="forgot_password">Forgot Password?</string>
+</resources>

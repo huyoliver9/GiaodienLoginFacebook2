@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_signup">28dp</dimen>
+    <dimen name="size_signup">15sp</dimen>
+    <dimen name="dimen_icon_Right">12dp</dimen>
+    <dimen name="dime_icon_bottom">15dp</dimen>
+    <dimen name="dimen_edittex_login">15dp</dimen>
+    <dimen name="size_edittext">50dp</dimen>
+    <dimen name="dimen_login">25dp</dimen>
+    <dimen name="padding_edittex">10dp</dimen>
+    <dimen name="size_login">20sp</dimen>
+</resources>
